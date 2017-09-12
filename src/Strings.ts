@@ -48,7 +48,7 @@ const localizedStrings: LocalizedStrings = {
         timeSent: " %1",
         consolePlaceholder: "Skriv inn melding...",
         listeningIndicator: "Lytter..."
-    },    
+    },
     'de-de': {
         title: "Chat",
         send: "Senden",
@@ -258,6 +258,21 @@ const localizedStrings: LocalizedStrings = {
         timeSent: " v %1",
         consolePlaceholder: "Napište svou zprávu...",
         listeningIndicator: "Poslouchám..."
+    },
+    'ko-kr': {
+        title: "지니봇",
+        send: "보내기",
+        unknownFile: "[File of type '%1']",
+        unknownCard: "[Unknown Card '%1']",
+        receiptVat: "VAT",
+        receiptTax: "Tax",
+        receiptTotal: "Total",
+        messageRetry: "재시도",
+        messageFailed: "보낼 수 없습니다.",
+        messageSending: "전송중...",
+        timeSent: " at %1",
+        consolePlaceholder: "메시지를 입력하세요.",
+        listeningIndicator: "답변을 기다리는 중입니다..."
     }
 }
 
@@ -298,6 +313,8 @@ export const strings = (locale: string) => {
         locale = 'zh-hans';
     else if (locale.startsWith('cs'))
         locale = 'cs-cz';
+    else if (locale.startsWith('ko'))
+        locale = 'ko-kr';
     else
         locale = 'en-us';
 

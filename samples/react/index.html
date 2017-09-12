@@ -16,6 +16,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <charset lang="ko"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Bot Chat</title>
 
@@ -46,15 +47,15 @@
       ReactDOM.render(
         <BotChat.Chat
           bot={{
-            id: params.botid || 'botid',
-            name: params.botname || 'botname'
-          }}
+            id: params.botid || 'JinairBot',
+            name: params.botname || 'Jinair Bot'
+}}
           directLine={{
-            domain: params.domain,
-            secret: params.s,
+            domain: "https://webchat.botframework.com/v3/directline",
+            secret: "G-SuaZCo4ag.cwA.c2Y.w8uhbtK5RJL8-lYEhYq-P957kB6-pONyu9q5WzOVLsU",
             token: params.t,
             webSocket: params.webSocket && params.webSocket === 'true' // defaults to true
-          }}
+}}
           locale={ params.locale }
           resize="detect"
           // sendTyping={ true }    // defaults to false. set to true to send 'typing' activities to bot (and other users) when user is typing
