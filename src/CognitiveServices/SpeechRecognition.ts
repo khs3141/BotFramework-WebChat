@@ -35,7 +35,7 @@ export class SpeechRecognizer implements Speech.ISpeechRecognizer {
                     new CognitiveSpeech.Device("WebChat", "WebChat", "1.0.00000"))),
             //recognitionMode,        // Speech.RecognitionMode.Interactive  (Options - Interactive/Conversation/Dictation>)
             //locale,                 // Supported laguages are specific to each recognition mode. Refer to docs.
-            'Interactive',
+            recognitionMode,
             'ko-KR',
             format
         );                // Speech.SpeechResultFormat.Simple (Options - Simple/Detailed)
