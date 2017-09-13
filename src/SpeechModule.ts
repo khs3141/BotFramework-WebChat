@@ -31,7 +31,7 @@ export module Speech {
             SpeechRecognizer.instance = recognizer;
         }
 
-        public static startRecognizing(locale: string = 'en-US',
+        public static startRecognizing(locale: string = 'ko-KR',
             onIntermediateResult: Func<string, void> = null,
             onFinalResult: Func<string, void> = null,
             onAudioStreamStarted: Action = null,
@@ -120,7 +120,7 @@ export module Speech {
             }
             
             this.recognizer = new (<any>window).webkitSpeechRecognition();
-            this.recognizer.lang = 'en-US';
+            this.recognizer.lang = 'ko-KR';
             this.recognizer.interimResults = true;
 
             this.recognizer.onaudiostart = () => {
