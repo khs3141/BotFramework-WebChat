@@ -92,11 +92,11 @@
       //
       const speechOptions = {
           speechRecognizer: new CognitiveServices.SpeechRecognizer({ subscriptionKey: 'be6ebaa8344146cb97b953f6a2c3f7ce' }),
-        speechSynthesizer: new CognitiveServices.SpeechSynthesizer({
+          speechSynthesizer: new CognitiveServices.SpeechSynthesizer({
           gender: CognitiveServices.SynthesisGender.Female,
           subscriptionKey: 'be6ebaa8344146cb97b953f6a2c3f7ce',
           voiceName: 'Microsoft Server Speech Text to Speech Voice (ko-KR, HeamiRUS)'
-        })
+          })
       };
 
       // // Option 4: Cognitive Services speech recognition using a token (usually generated in a secure backend using your API key)
