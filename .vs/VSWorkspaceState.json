@@ -1,6 +1,17 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\node_modules",
+    "\\node_modules\\microsoft-speech-browser-sdk\\src",
+    "\\node_modules\\microsoft-speech-browser-sdk\\src\\common",
+    "\\node_modules\\microsoft-speech-browser-sdk\\src\\common.browser",
+    "\\node_modules\\microsoft-speech-browser-sdk\\src\\sdk",
+    "\\node_modules\\microsoft-speech-browser-sdk\\src\\sdk\\speech",
+    "\\node_modules\\microsoft-speech-browser-sdk\\src\\sdk\\speech.browser",
+    "\\samples",
+    "\\src",
+    "\\src\\CognitiveServices"
   ],
+  "SelectedNode": "\\node_modules\\microsoft-speech-browser-sdk",
   "PreviewInSolutionExplorer": false
 }
