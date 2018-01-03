@@ -28,6 +28,10 @@
         display: block;
     }
 
+    .wc-upload {
+        display: none;
+    }
+
 /* docking */
 
     .wc-hidden {
@@ -66,7 +70,7 @@
         right: 0;
         top: $headerTotalHeight;
         transition: transform $actionTransition;
-        
+
         &.no-header {
             top: 0;
         }
@@ -129,7 +133,7 @@
             top: 0;
             width: 28px;
         }
-        
+
         button.scroll:disabled {
             display: none;
         }
@@ -276,7 +280,7 @@
         .non-adaptive-content {
             margin: $card_padding $card_padding 0 $card_padding;
         }
-        
+
         button {
             background-color: transparent;
             color: $c_brand;
@@ -510,7 +514,7 @@
             .wc-adaptive-card p {
                 min-height: initial;
             }
-            
+
         }
     }
 
@@ -617,7 +621,7 @@
     .wc-send {
         right: 0;
     }
-    
+
     .wc-send.hidden {
         visibility: hidden
     }
@@ -633,13 +637,13 @@
     .wc-mic.active path#micFilling {
         fill:rgb(78, 55, 135)
     }
-    
+
     .wc-mic.inactive path#micFilling {
         visibility: hidden
     }
 
     .wc-console.has-text .wc-send svg {
-        fill: $c07; 
+        fill: $c07;
     }
 
 /* animation */
@@ -704,4 +708,3 @@
     .wc-app ::-webkit-scrollbar-thumb {
         background-color: $c_chrome;
     }
-    
